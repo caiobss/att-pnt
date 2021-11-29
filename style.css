@@ -1,0 +1,165 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+    height: 10vh;
+    width: 100%;
+    z-index: 100;
+    font-size: 1.3rem;
+}
+header a{
+    color: white;
+}
+.sessao-banner{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+}
+.img-wrapper{
+    background-color: rgba(0, 23, 43, 0.836);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.img-wrapper img{
+    opacity: 0.5;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.banner-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.banner-content h1{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+.banner-txt p{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    background-color: rgb(146, 81, 207);
+    color: white;
+    height: 4rem;
+    width: 18rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+    margin: 0 2rem;
+}
+.buttons button:hover{
+    background-color: rgb(80, 43, 114) ;
+}
+.banner-content i{
+    font-size: 2rem;
+}
+.icon-social{
+    background-color: rgb(50, 62, 77);
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.icon-social i{
+    font-size: 2rem;
+    color: rgb(219, 219, 219);
+}
+.sessao-info{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    padding: 0 8rem;
+}
+.info-content{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.img-info i{
+    background-color: rgb(67, 78, 92) ;
+    height: 12rem;
+    width: 12rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+}
+.txt-info{
+    padding-left: 3rem;
+}
+
+table{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 25rem;
+    width: 60rem;
+    font-size: 1.4rem;
+}
+table, th, td{
+    border: 4px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+td{
+    padding-left: 1rem;
+}
+body i{
+    margin-top: 7%;
+}
+.go-back{
+    background-color: blueviolet;
+    padding: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+}
+.go-back i{
+    font-size: 2rem;
+    color: white;
+}
+footer{
+    background-color: rgb(43, 40, 54);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 100%;
+}
+footer p{
+    color: rgb(201, 201, 201);
+}

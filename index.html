@@ -4,32 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <style>
-        @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
-    </style>
+    <title>Programaki</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <div>
-            <h1>Programa_aqui.com</h1>
-            <h2>Home</h2>
-            <a href="/index.html">Home</a>
-            <a href="/missao.html">Missão</a>
-            <a href="/visao.html">Visão</a>
-            <a href="/valores.html">Valores</a>
+    <header>
+        <div class="logo">
+            <h1><a href="/index.html">Programaki</a></h1>
         </div>
-        <div>
-            <img width="1100px" height="600px" src="/imagens/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg" alt="">
+    </header>
+    <section class="sessao-banner">
+        <div class="banner">
+            <div class="img-wrapper">
+                <img width="1100px" height="600px" src="/imagens/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg" alt="">
+            </div>
+            <div class="banner-content">
+                <div class="banner-txt">
+                    <h1>Programaki...</h1>
+                    <p>A proposta do Programaki é fazer com que o você possa aprender e criar projetos estando mais proximo do sucesso e mais perto de um possivel negócio.</p>
+                </div>
+                <div class="buttons">
+                    <button onclick="window.location.href='/missao.html'">Missão</button>
+                    <button onclick="window.location.href='/visao.html'">Visão</button>
+                    <button onclick="window.location.href='/valores.html'">Valores</button>
+                </div>
+            </div>
+            <div class="icon-social">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
         </div>
-        <div>
-            <p>A proposta do Programa_aqui é fazer com que o você possa aprender e criar projetos estando mais proximo do sucesso e mais perto de um possivel negócio.</p>
-            <p>O que é a programação?
-                A programação, às vezes chamada de programação computacional, é a forma como nos comunicamos com os computadores. A programação informa à máquina quais ações executar. Criar um código é como definir um conjunto de instruções. ... Não se esqueça de que qualquer pessoa pode aprender a programar.</p>
-        </div>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
     </section>
+    <section class="sessao-info">
+        <div class="info-content">
+            <div class="img-info">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="txt-info">
+                <h2>O que é a programação?</h2>
+                <p> A programação, às vezes chamada de programação computacional, é a forma como nos comunicamos com os computadores. A programação informa à máquina quais ações executar. Criar um código é como definir um conjunto de instruções. ... Não se esqueça de que qualquer pessoa pode aprender a programar.</p>
+            </div>
+        </div>
+        <div class="info-content">
+            <div class="img-info">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="txt-info">
+                <h2>Java</h2>
+                <p>Java. É a linguagem de programação mais utilizada no planeta. Ela pode ser usada em diversos aparelhos e leva o título de principal linguagem para a criação de aplicativos na produção Android.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados a 2021 ReProduct©</p>
+    </footer>
 </body>
 </html>
